@@ -7,4 +7,3 @@ export { CognitoJwtVerifier } from "./cognito-verifier.js";
 // including these exports in index.ts to avoid typescript from complaining re. inability to import from submodules, which was the problem while using official aws-jwt-verify package.
 export { SimpleJsonFetcher } from "./https.js";
 export { SimpleJwksCache } from "./jwk.js";
-export { CognitoAccessTokenPayload, CognitoIdTokenPayload, CognitoJwtPayload } from "./jwt-model.js";
